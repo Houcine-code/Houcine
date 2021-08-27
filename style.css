@@ -1,0 +1,236 @@
+.sidebar{
+  background:#f8b195;
+  position:fixed;
+  top:0;
+  left:0;
+  min-width:155px;
+  width:160px;
+  height:100%;
+  text-align:center;
+}
+.content{
+  position:absolute;
+  margin-left:160px;
+}
+#navbar{
+  display:flex;
+  flex-direction:column;
+  margin:auto;
+}
+.nav{
+  display:flex;
+  flex-direction:column;
+  text-align:center;
+  font-size:1.5rem;
+}
+.nav li{
+  border-bottom:1px solid white;
+  padding:1.5vh 0;
+}
+.nav i{
+  display:block;
+  font-size:4vh;
+}
+.nav a{
+  text-decoration:none;
+  color:#fff;
+}
+.nav a:hover{
+  text-decoration:none;
+  color:#f67280;
+}
+section{
+  padding:10vh;
+}
+#welcome-section{
+  height:100vh;
+  background:#355c7d;
+}
+.hero{
+  position: relative;
+  top: 40%;
+  left: 5%;
+  transform: translate(-5%,-40%);
+}
+.project-div{
+  display:grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-gap:10px;
+  margin:auto;
+}
+.card-footer{
+  background:#355c7d;
+  color:white;
+}
+.card-footer a{
+  color:white;
+  text-decoration:none;
+}
+.card-footer a:hover{
+  color:#f67280;
+}
+#projects{
+  text-align:center;
+}
+#projects p{
+  font-size:3vw;
+  color:#355c7d;
+}
+#skills{
+  background:#355c7d;
+  color:#f8b195;
+}
+#skills p{
+  margin:10px 0 0 0;
+  font-size:1.2em;
+  color:#fff;
+}
+#skills .progress-bar{
+  background:#f67280;
+  color:#355c7d;
+}
+#skills-conatiner{
+  display:flex;
+  flex-direction:column;
+  margin:auto;
+  width:60vw;
+}
+#reviews{
+}
+#review-container{
+  display:flex;
+  flex-direction: row;
+  margin:auto;
+}
+#review-item{
+  padding:5px;
+  margin:5px;
+}
+#review-item-head{
+    display: flex;
+    flex-direction: row;
+  padding:5px;
+  }
+.rating i{
+  font-size:1.5vw;
+  color:#f67280;
+}
+  #review-item-head .profile-thumbnail {
+    width: 50px;
+    height: 50px;
+    border-radius: 4px;
+  }
+  #review-item-head .profile-name {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 10px;
+  }
+.profile-name h3{
+  font-size:2vw;
+}
+  #review-item-head h3, header h4 {
+    display: flex;
+    margin: 0;
+  }
+  #review-item-body {
+    padding: 5px;
+  }
+  #review-item-body p {
+    margin-bottom: 10px;
+    font-size: 18px;
+  }
+  #review-item-body hr {
+    margin: 20px 0;
+    border-style: solid;
+    opacity: 0.1;
+  }
+#social{
+  background:#355c7d;
+  text-align:center;
+}
+#social p{
+  font-size:3vw;
+  color:#f8b195;
+}
+#social a{
+  text-decoration:none;
+  color:#f67280;
+}
+#social a:hover{
+  text-decoration:none;
+  color:#f8b195;
+}
+#nav-contact-links{
+}
+#list-contact-links{
+  display:flex;
+  flex-direction:row;
+  list-style:none;
+  justify-content:space-around;
+}
+#list-contact-links a{
+  font-size:3vh;
+  text-decoration:none;
+}
+#list-contact-links li{
+  text-align:center;
+}
+#list-contact-links .fab{
+  padding:1vw;
+}
+#contact{
+}
+#contact p{
+  text-align:center;
+ font-size:3vw;
+  color:#355c7d;
+}
+.btn{
+  display:block;
+  background:#f67280;
+  margin:auto;
+  color:#fff;
+}
+.btn:hover{
+  color:#355c7d;
+}
+.footer{
+  position:fixed;
+  left:0;
+  bottom:0;
+  background:#6c5b7b;
+  min-width:155px;
+  width:160px;
+  text-align:center;
+}
+.footer p {
+  margin:4px;
+}
+.footer p a{
+  color:#fff;
+}
+@media(max-width:500px){
+  .project-div{
+   width:70%;
+  }
+  section{
+  padding:0;
+}
+  .project-div{
+  display:grid;
+  grid-gap:10px;
+    width:90vw;
+  margin:auto;
+}
+  #review-container{
+  display:flex;
+  flex-direction: column;
+  width:90%;
+  margin:auto;
+}
+  #skills-conatiner{
+  margin:auto;
+  width:90%;
+}
+}
