@@ -11,6 +11,7 @@
 .content{
   position:absolute;
   margin-left:160px;
+  width: -webkit-fill-available;
 }
 #navbar{
   display:flex;
